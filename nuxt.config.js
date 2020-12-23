@@ -11,14 +11,6 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ],
   },
-  router: {
-    extendRoutes(routes, resolve) {
-      routes.push({
-        path: '*',
-        component: resolve(__dirname, 'pages/index.vue'),
-      })
-    },
-  },
   css: [],
   plugins: [],
   styleResources: {
