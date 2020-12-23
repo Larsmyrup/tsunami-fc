@@ -1,0 +1,56 @@
+@import './variables';
+@import './mixins';
+@import './spacing';
+// Reset file not included here because of the order the scss gets loaded in
+// (so it would end up overruling styles created in components)
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: $tsu-white;
+  color: $tsu-blue;
+  font-size: 14px;
+  font-family: Arial, sans-serif;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.tsu-fade-enter-active, .tsu-fade-leave-active {
+  transition: 100ms ease-out opacity;
+}
+
+.tsu-fade-enter, .tsu-fade-leave-to {
+  opacity: 0;
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+.nowrap {
+  white-space: nowrap;
+}
+
+h1 {
+  font-family: Arial,
+  sans-serif;
+  color: $tsu-blue;
+  font-weight: 300;
+  line-height: 35px;
+  letter-spacing: 1px;
+  font-size: 28px;
+
+  @include screen-sm() {
+    font-size: 40px;
+    line-height: 65px;
+  }
+  margin: 0;
+}
+
+

@@ -1,0 +1,28 @@
+// Colors
+$tsu-blue: #202344;
+$tsu-white: #ffffff;
+
+// Grid gutters
+$grid-gutter-xl: 30px !default;
+$grid-gutter-lg: 30px !default;
+$grid-gutter-md: 30px !default;
+$grid-gutter-sm: 30px !default;
+$grid-gutter-xs: 30px !default;
+
+// Breakpoints
+$screen-xl-min: 1440px !default;
+$screen-lg-max: $screen-xl-min - 1px !default;
+$screen-lg-min: 1280px !default;
+$screen-md-max: $screen-lg-min - 1px !default;
+$screen-md-min: 991px !default;
+$screen-sm-max: $screen-md-min - 1px !default;
+$screen-sm-min: 768px !default;
+$screen-xs-max: $screen-sm-min - 1px !default;
+$screen-xs-min: 1px !default;
+
+// Container sizes
+$container-xl: 1380px !default;
+$container-lg: calc(100% - 60px) !default;
+$container-md: calc(100% - 60px) !default;
+$container-sm: calc(100% - 60px) !default;
+$container-xs: 100% !default;

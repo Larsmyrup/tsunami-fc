@@ -1,0 +1,73 @@
+$intervals: (
+  '0': 0px,
+  '1': 5px,
+  '2': 10px,
+  '3': 15px,
+  '4': 20px,
+  '5': 30px,
+  '6': 40px,
+  '7': 50px,
+  '8': 60px
+);
+
+@each $key, $value in $intervals {
+  .ma-#{$key} {
+    margin: $value !important;
+  }
+
+  .mx-#{$key} {
+    margin-left: $value !important;
+    margin-right: $value !important;
+  }
+
+  .my-#{$key} {
+    margin-top: $value !important;
+    margin-bottom: $value !important;
+  }
+
+  .mt-#{$key} {
+    margin-top: $value !important;
+  }
+
+  .mr-#{$key} {
+    margin-right: $value !important;
+  }
+
+  .mb-#{$key} {
+    margin-bottom: $value !important;
+  }
+
+  .ml-#{$key} {
+    margin-left: $value !important;
+  }
+
+  .pa-#{$key} {
+    padding: $value !important;
+  }
+
+  .px-#{$key} {
+    padding-left: $value !important;
+    padding-right: $value !important;
+  }
+
+  .py-#{$key} {
+    padding-top: $value !important;
+    padding-bottom: $value !important;
+  }
+
+  .pt-#{$key} {
+    padding-top: $value !important;
+  }
+
+  .pr-#{$key} {
+    padding-right: $value !important;
+  }
+
+  .pb-#{$key} {
+    padding-bottom: $value !important;
+  }
+
+  .pl-#{$key} {
+    padding-left: $value !important;
+  }
+}

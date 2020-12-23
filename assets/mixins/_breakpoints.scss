@@ -1,0 +1,35 @@
+@mixin screen-xs {
+  @media screen and (max-width: $screen-xs-max) {
+    @content;
+  }
+}
+
+@mixin screen-sm {
+  @media screen and (min-width: $screen-sm-min) {
+    @content;
+  }
+}
+
+@mixin screen-md {
+  @media screen and (min-width: $screen-md-min) {
+    @content;
+  }
+}
+
+@mixin screen-lg {
+  @media screen and (min-width: $screen-lg-min) {
+    @content;
+  }
+}
+
+@mixin screen-xl {
+  @media screen and (min-width: $screen-xl-min) {
+    @content;
+  }
+}
+
+@mixin screen-min($size) {
+  @media screen and (min-width: $size) {
+    @content;
+  }
+}
