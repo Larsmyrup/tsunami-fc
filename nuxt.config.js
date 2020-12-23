@@ -1,7 +1,7 @@
 export default {
   target: 'static',
   head: {
-    title: 'tsunami-fc',
+    title: 'Tsunami FC',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
@@ -28,7 +28,7 @@ export default {
     '@nuxtjs/style-resources',
   ],
   pageTransition: {
-    name: 'tsuyarn -fade',
+    name: 'tsu-fade',
     mode: 'out-in',
   },
 }
