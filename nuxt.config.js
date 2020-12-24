@@ -11,6 +11,11 @@ export default {
         property: 'og:image',
         content: '/tsucover.jpg',
       },
+      {
+        hid: 'description',
+        name: 'description',
+        description: 'Verdens sjoveste fodboldklub, måske',
+      },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
